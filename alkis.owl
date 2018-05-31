@@ -1,0 +1,694 @@
+@prefix : <https://w3id.org/alkis/> .
+@prefix alk: <https://w3id.org/alkis/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+alk: rdf:type owl:Ontology ;
+	 dct:title "ALKIS Ontologie"@de ;
+	 dct:title "ALKIS Ontology"@en ;
+	 rdfs:comment "Eine Geodatenontologie, welche erstellt wurde um ALKIS-Daten mit dem semantische Web zu verbinden."@de ;
+	 rdfs:comment "A geo-data ontology developed to link ALKIS data to the semantic web."@en ;
+     dct:creator "Raed Ben Younes" ;
+     dct:creator "Edward Dinu" ;
+     dct:modified "2018-05-30"@de ;
+     dct:contributor "2018-05-17"^^xsd:date ;
+     vann:preferredNamespacePrefix "alk" .
+     
+     
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/alkis/amtlicheFlaeche
+alk:amtlicheFlaeche rdf:type owl:ObjectProperty ;
+                    rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                    rdfs:range alk:Area .
+
+
+###  https://w3id.org/alkis/anteil
+alk:anteil rdf:type owl:ObjectProperty ;
+           rdfs:domain alk:AX_Buchungsstelle ;
+           rdfs:range alk:AX_Anteil .
+
+
+###  https://w3id.org/alkis/beziehtSichAuf
+alk:beziehtSichAuf rdf:type owl:ObjectProperty ;
+                   rdfs:domain alk:AX_Vertretung ;
+                   rdfs:range alk:AX_Flurstueck .
+
+
+###  https://w3id.org/alkis/beziehtSichAufFlurstueck
+alk:beziehtSichAufFlurstueck rdf:type owl:ObjectProperty ,
+                                      owl:ReflexiveProperty ;
+                             rdfs:domain alk:AX_Flurstueck ;
+                             rdfs:range alk:AX_Flurstueck .
+
+
+###  https://w3id.org/alkis/buchungsart
+alk:buchungsart rdf:type owl:ObjectProperty ;
+                rdfs:domain alk:AX_Buchungsstelle ;
+                rdfs:range alk:AX_Buchungsart_Buchungsstelle .
+
+
+###  https://w3id.org/alkis/flaecheDesAbschnitts
+alk:flaecheDesAbschnitts rdf:type owl:ObjectProperty ;
+                         rdfs:domain alk:AX_SonstigeEigenschaften_Flurstueck ;
+                         rdfs:range alk:Area .
+
+
+###  https://w3id.org/alkis/flurstuecksnummer
+alk:flurstuecksnummer rdf:type owl:ObjectProperty ;
+                      rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                      rdfs:range alk:AX_Flurstuecksnummer .
+
+
+###  https://w3id.org/alkis/gehoertAnteiligZu
+alk:gehoertAnteiligZu rdf:type owl:ObjectProperty ,
+                               owl:ReflexiveProperty ;
+                      rdfs:domain alk:AX_Flurstueck ;
+                      rdfs:range alk:AX_Flurstueck .
+
+
+###  https://w3id.org/alkis/gehoertZu
+alk:gehoertZu rdf:type owl:ObjectProperty ;
+              rdfs:domain alk:AX_LagebezeichnungMitHausnummer ,
+                          alk:AX_LagebezeichnungOhneHausnummer ;
+              rdfs:range alk:AX_Flurstueck .
+
+
+###  https://w3id.org/alkis/gemarkung
+alk:gemarkung rdf:type owl:ObjectProperty ;
+              rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+              rdfs:range alk:AX_Gemarkung_Schluessel .
+
+
+###  https://w3id.org/alkis/gemeindezugehoerigkeit
+alk:gemeindezugehoerigkeit rdf:type owl:ObjectProperty ;
+                           rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                           rdfs:range alk:AX_Gemeindekennzeichen .
+
+
+###  https://w3id.org/alkis/grundstueckBestehtAus
+alk:grundstueckBestehtAus rdf:type owl:ObjectProperty ;
+                          rdfs:domain alk:AX_Buchungsstelle ;
+                          rdfs:range alk:AX_Flurstueck .
+
+
+###  https://w3id.org/alkis/istGebucht
+alk:istGebucht rdf:type owl:ObjectProperty ;
+               rdfs:domain alk:AX_Flurstueck ;
+               rdfs:range alk:AX_Buchungsstelle .
+
+
+###  https://w3id.org/alkis/objektkoordinaten
+alk:objektkoordinaten rdf:type owl:ObjectProperty ;
+                      rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                      rdfs:range alk:GM_Point .
+
+
+###  https://w3id.org/alkis/sonstigeEigenschaften
+alk:sonstigeEigenschaften rdf:type owl:ObjectProperty ;
+                          rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                          rdfs:range alk:AX_SonstigeEigenschaften_Flurstueck .
+
+
+###  https://w3id.org/alkis/ueberschriftFortfuehrungsnachweis
+alk:ueberschriftFortfuehrungsnachweis rdf:type owl:ObjectProperty ;
+                                      rdfs:domain alk:AX_Fortfuehrungsfall ;
+                                      rdfs:range alk:AA_Anlassart .
+
+
+###  https://w3id.org/alkis/verweistAuf
+alk:verweistAuf rdf:type owl:ObjectProperty ;
+                rdfs:domain alk:AX_Buchungsstelle ,
+                            alk:AX_Fortfuehrungsfall ;
+                rdfs:range alk:AX_FGraphik ,
+                           alk:AX_Flurstueck .
+
+
+###  https://w3id.org/alkis/weistAuf
+alk:weistAuf rdf:type owl:ObjectProperty ;
+             rdfs:domain alk:AX_Flurstueck ;
+             rdfs:range alk:AX_LagebezeichnungMitHausnummer .
+
+
+###  https://w3id.org/alkis/zeigtAuf
+alk:zeigtAuf rdf:type owl:ObjectProperty ;
+             rdfs:domain alk:AX_Flurstueck ;
+             rdfs:range alk:AX_LagebezeichnungOhneHausnummer .
+
+
+###  https://w3id.org/alkis/zustaendigeStelle
+alk:zustaendigeStelle rdf:type owl:ObjectProperty ;
+                      rdfs:domain alk:AX_Flurstueck ;
+                      rdfs:range alk:AX_Dienststelle_Schluessel .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/alkis/abweichenderRechtszustand
+alk:abweichenderRechtszustand rdf:type owl:DatatypeProperty ;
+                              rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                              rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/alkis/angabenZumAbschnittBemerkung
+alk:angabenZumAbschnittBemerkung rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain alk:AX_SonstigeEigenschaften_Flurstueck ;
+                                 rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/angabenZumAbschnittFlurstueck
+alk:angabenZumAbschnittFlurstueck rdf:type owl:DatatypeProperty ;
+                                  rdfs:domain alk:AX_SonstigeEigenschaften_Flurstueck ;
+                                  rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/angabenZumAbschnittNummerAktenzeichen
+alk:angabenZumAbschnittNummerAktenzeichen rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain alk:AX_SonstigeEigenschaften_Flurstueck ;
+                                          rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/angabenZumAbschnittStelle
+alk:angabenZumAbschnittStelle rdf:type owl:DatatypeProperty ;
+                              rdfs:domain alk:AX_SonstigeEigenschaften_Flurstueck ;
+                              rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/angabenZurVertretung
+alk:angabenZurVertretung rdf:type owl:DatatypeProperty ;
+                         rdfs:domain alk:AX_Vertretung ;
+                         rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/anmerkungFuerDenNotar
+alk:anmerkungFuerDenNotar rdf:type owl:DatatypeProperty ;
+                          rdfs:domain alk:AX_Fortfuehrungsfall ;
+                          rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/anzahlDerFortfuehrungsmittelungen
+alk:anzahlDerFortfuehrungsmittelungen rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain alk:AX_Fortfuehrungsfall ;
+                                      rdfs:range xsd:integer .
+
+
+###  https://w3id.org/alkis/artDerVertretung
+alk:artDerVertretung rdf:type owl:DatatypeProperty ;
+                     rdfs:domain alk:AX_Vertretung ;
+                     rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/beginnDerVertretung
+alk:beginnDerVertretung rdf:type owl:DatatypeProperty ;
+                        rdfs:domain alk:AX_Vertretung ;
+                        rdfs:range xsd:dateTime .
+
+
+###  https://w3id.org/alkis/bemerkung
+alk:bemerkung rdf:type owl:DatatypeProperty ;
+              rdfs:domain alk:AX_Fortfuehrungsfall ;
+              rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/beschreibungDesSondereigentums
+alk:beschreibungDesSondereigentums rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain alk:AX_Buchungsstelle ;
+                                   rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/beschreibungDesUmfangsDerBuchung
+alk:beschreibungDesUmfangsDerBuchung rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain alk:AX_Buchungsstelle ;
+                                     rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/buchungstext
+alk:buchungstext rdf:type owl:DatatypeProperty ;
+                 rdfs:domain alk:AX_Buchungsstelle ;
+                 rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/endeDerVertretung
+alk:endeDerVertretung rdf:type owl:DatatypeProperty ;
+                      rdfs:domain alk:AX_Vertretung ;
+                      rdfs:range xsd:dateTime .
+
+
+###  https://w3id.org/alkis/flurnummer
+alk:flurnummer rdf:type owl:DatatypeProperty ;
+               rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+               rdfs:range xsd:integer .
+
+
+###  https://w3id.org/alkis/flurstuecksfolge
+alk:flurstuecksfolge rdf:type owl:DatatypeProperty ;
+                     rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                     rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/flurstueckskennzeichen
+alk:flurstueckskennzeichen rdf:type owl:DatatypeProperty ;
+                           rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                           rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/fortfuehrungsmitteilungAnEigentuemerAntragsteller
+alk:fortfuehrungsmitteilungAnEigentuemerAntragsteller rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain alk:AX_Fortfuehrungsfall ;
+                                                      rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/fortfuehrungsnummer
+alk:fortfuehrungsnummer rdf:type owl:DatatypeProperty ;
+                        rdfs:domain alk:AX_Fortfuehrungsfall ;
+                        rdfs:range xsd:integer .
+
+
+###  https://w3id.org/alkis/gemarkungsnummer
+alk:gemarkungsnummer rdf:type owl:DatatypeProperty ;
+                     rdfs:domain alk:AX_Gemarkung_Schluessel ;
+                     rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/hausnummer
+alk:hausnummer rdf:type owl:DatatypeProperty ;
+               rdfs:domain alk:AX_LagebezeichnungMitHausnummer ;
+               rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/kennungSchluessel
+alk:kennungSchluessel rdf:type owl:DatatypeProperty ;
+                      rdfs:domain alk:AX_SonstigeEigenschaften_Flurstueck ;
+                      rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/land
+alk:land rdf:type owl:DatatypeProperty ;
+         rdfs:domain alk:AX_Gemarkung_Schluessel ;
+         rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/laufendeNummer
+alk:laufendeNummer rdf:type owl:DatatypeProperty ;
+                   rdfs:domain alk:AX_Buchungsstelle ;
+                   rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/laufenderNummer
+alk:laufenderNummer rdf:type owl:DatatypeProperty ;
+                    rdfs:domain alk:AX_Fortfuehrungsfall ;
+                    rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/nenner
+alk:nenner rdf:type owl:DatatypeProperty ;
+           rdfs:domain alk:AX_Flurstuecksnummer ;
+           rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/nummerImAufteilungsplan
+alk:nummerImAufteilungsplan rdf:type owl:DatatypeProperty ;
+                            rdfs:domain alk:AX_Buchungsstelle ;
+                            rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/ortsteil
+alk:ortsteil rdf:type owl:DatatypeProperty ;
+             rdfs:domain alk:AX_LagebezeichnungMitHausnummer ,
+                         alk:AX_LagebezeichnungOhneHausnummer ;
+             rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/rechtsbehelfsverfahren
+alk:rechtsbehelfsverfahren rdf:type owl:DatatypeProperty ;
+                           rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                           rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/alkis/zaehler
+alk:zaehler rdf:type owl:DatatypeProperty ;
+            rdfs:domain alk:AX_Flurstuecksnummer ;
+            rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/zeigtAufAltesFlurstueck
+alk:zeigtAufAltesFlurstueck rdf:type owl:DatatypeProperty ;
+                            rdfs:domain alk:AX_Fortfuehrungsfall ;
+                            rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/zeigtAufNeuesFlurstueck
+alk:zeigtAufNeuesFlurstueck rdf:type owl:DatatypeProperty ;
+                            rdfs:domain alk:AX_Fortfuehrungsfall ;
+                            rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/zeitpunktDerEintragung
+alk:zeitpunktDerEintragung rdf:type owl:DatatypeProperty ;
+                           rdfs:domain alk:AX_Buchungsstelle ;
+                           rdfs:range xsd:dateTime .
+
+
+###  https://w3id.org/alkis/zeitpunktDerEntstehung
+alk:zeitpunktDerEntstehung rdf:type owl:DatatypeProperty ;
+                           rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                           rdfs:range xsd:dateTime .
+
+
+###  https://w3id.org/alkis/zusatzZurLagebezeichnung
+alk:zusatzZurLagebezeichnung rdf:type owl:DatatypeProperty ;
+                             rdfs:domain alk:AX_LagebezeichnungOhneHausnummer ;
+                             rdfs:range xsd:string .
+
+
+###  https://w3id.org/alkis/zweifelhafterFlurstuecksnachweis
+alk:zweifelhafterFlurstuecksnachweis rdf:type owl:DatatypeProperty ;
+                                     rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                                     rdfs:range xsd:boolean .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/alkis/AA_Anlassart
+alk:AA_Anlassart rdf:type owl:Class ;
+                 rdfs:comment "Hinweis über die Art der Aktualisierung im Fortführungsnachweis."@de ;
+                 rdfs:label "Anlassart"@de .
+
+
+###  https://w3id.org/alkis/AX_Anteil
+alk:AX_Anteil rdf:type owl:Class ;
+              rdfs:comment "Hinweis auf den im Grundbuch nachgewiesenen Miteigentumsanteil am Grundstück oder den Anteil am Recht."@de ;
+              rdfs:label "Anteil"@de .
+
+
+###  https://w3id.org/alkis/AX_Buchungsart_Buchungsstelle
+alk:AX_Buchungsart_Buchungsstelle rdf:type owl:Class ;
+                                  rdfs:comment "Die Art der Buchung einer Buchungsstelle."@de ;
+                                  rdfs:label "Buchungsart"@de .
+
+
+###  https://w3id.org/alkis/AX_Buchungsstelle
+alk:AX_Buchungsstelle rdf:type owl:Class ;
+                      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                        owl:onProperty alk:anteil ;
+                                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass alk:AX_Anteil
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty alk:beschreibungDesSondereigentums ;
+                                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onDataRange xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty alk:beschreibungDesUmfangsDerBuchung ;
+                                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onDataRange xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty alk:buchungstext ;
+                                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onDataRange xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty alk:nummerImAufteilungsplan ;
+                                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onDataRange xsd:string
+                                      ] ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty alk:zeitpunktDerEintragung ;
+                                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onDataRange xsd:dateTime
+                                      ] ;
+                      rdfs:comment "Die unter einer laufenden Nummer im Buchungsblatt eingetrangene Buchung."@de ;
+                      rdfs:label "Buchungsstelle"@de .
+
+
+###  https://w3id.org/alkis/AX_Dienststelle_Schluessel
+alk:AX_Dienststelle_Schluessel rdf:type owl:Class ;
+                               rdfs:comment "Der eindeutige Schlüssel einer Dienststelle."@de ;
+                               rdfs:label "Dienststellenschlüssel"@de .
+
+
+###  https://w3id.org/alkis/AX_FGraphik
+alk:AX_FGraphik rdf:type owl:Class ;
+                rdfs:comment "Eine Datei, in der Veränderungen einer Anlage farblich gekennzeichnet sind."@de ;
+                rdfs:label "F-Graphik"@de .
+
+
+###  https://w3id.org/alkis/AX_Flurstueck
+alk:AX_Flurstueck rdf:type owl:Class ;
+                  rdfs:subClassOf [ owl:intersectionOf ( alk:AX_Flurstueck_Kerndaten
+                                                         alk:TA_MultiSurfaceComponent
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty alk:istGebucht ;
+                                    owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onClass alk:AX_Buchungsstelle
+                                  ] ;
+                  rdfs:comment "Ein amtlich vermessener und in der Regel örtlich abgemarkter Teil der Erdoberfläche."@de ;
+                  rdfs:label "Flurstück"@de .
+
+
+###  https://w3id.org/alkis/AX_Flurstueck_Kerndaten
+alk:AX_Flurstueck_Kerndaten rdf:type owl:Class ;
+                            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:gemeindezugehoerigkeit ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onClass alk:AX_Gemeindekennzeichen
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:objektkoordinaten ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onClass alk:GM_Point
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:sonstigeEigenschaften ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onClass alk:AX_SonstigeEigenschaften_Flurstueck
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:abweichenderRechtszustand ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onDataRange xsd:boolean
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:flurnummer ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onDataRange xsd:integer
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:flurstuecksfolge ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onDataRange xsd:string
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:rechtsbehelfsverfahren ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onDataRange xsd:boolean
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:zeitpunktDerEntstehung ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onDataRange xsd:dateTime
+                                            ] ,
+                                            [ rdf:type owl:Restriction ;
+                                              owl:onProperty alk:zweifelhafterFlurstuecksnachweis ;
+                                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                              owl:onDataRange xsd:boolean
+                                            ] ;
+                            owl:disjointWith alk:TA_MultiSurfaceComponent ;
+                            rdfs:comment "Enthält Eigenschaften des Flurstücks, die auch für andere Flurstücksobjektkarten gelten."@de ;
+                            rdfs:label "Flurstückskerndaten"@de .
+
+
+###  https://w3id.org/alkis/AX_Flurstuecksnummer
+alk:AX_Flurstuecksnummer rdf:type owl:Class ;
+                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:nenner ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:string
+                                         ] ;
+                         rdfs:comment "Eindeutige Nummer eines Flurstücks."@de ;
+                         rdfs:label "Flurstücksnumemr"@de .
+
+
+###  https://w3id.org/alkis/AX_Fortfuehrungsfall
+alk:AX_Fortfuehrungsfall rdf:type owl:Class ;
+                         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:ueberschriftFortfuehrungsnachweis ;
+                                           owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass alk:AA_Anlassart
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:verweistAuf ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass alk:AX_FGraphik
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:anmerkungFuerDenNotar ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:anzahlDerFortfuehrungsmittelungen ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:integer
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:bemerkung ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:fortfuehrungsmitteilungAnEigentuemerAntragsteller ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:string
+                                         ] ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty alk:laufenderNummer ;
+                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onDataRange xsd:string
+                                         ] ;
+                         rdfs:comment "Eine Beschreibung der notwendigen Angaben zum Aufbau eines Fortführungsnachweises."@de ;
+                         rdfs:label "Fortführungsfall"@de .
+
+
+###  https://w3id.org/alkis/AX_Gemarkung_Schluessel
+alk:AX_Gemarkung_Schluessel rdf:type owl:Class ;
+                            rdfs:comment "Ein eindeutiger Schlüssel einer Gemarkung."@de ;
+                            rdfs:label "Gemarkungsschlüssel"@de .
+
+
+###  https://w3id.org/alkis/AX_Gemeindekennzeichen
+alk:AX_Gemeindekennzeichen rdf:type owl:Class ;
+                           rdfs:comment "Eine vom Statistischen Bundesamt veröffentlichte Schlüsselnummer des räumlichen Merkmals \"Gemeinde\"."@de ;
+                           rdfs:label "Gemeindekennzeichen"@de .
+
+
+###  https://w3id.org/alkis/AX_LagebezeichnungMitHausnummer
+alk:AX_LagebezeichnungMitHausnummer rdf:type owl:Class ;
+                                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                      owl:onProperty alk:gehoertZu ;
+                                                      owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                      owl:onClass alk:AX_Flurstueck
+                                                    ] ,
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty alk:ortsteil ;
+                                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                      owl:onDataRange xsd:string
+                                                    ] ;
+                                    rdfs:comment "Gibt die Lage von Flurstücken an, die eine Festgesetzte Grundstücksnummer haben."@de ;
+                                    rdfs:label "Lagebezeichnung mit Hausnummer"@de .
+
+
+###  https://w3id.org/alkis/AX_LagebezeichnungOhneHausnummer
+alk:AX_LagebezeichnungOhneHausnummer rdf:type owl:Class ;
+                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                       owl:onProperty alk:gehoertZu ;
+                                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onClass alk:AX_Flurstueck
+                                                     ] ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty alk:ortsteil ;
+                                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onDataRange xsd:string
+                                                     ] ,
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty alk:zusatzZurLagebezeichnung ;
+                                                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                       owl:onDataRange xsd:string
+                                                     ] ;
+                                     rdfs:comment "Gibt die Lage von Flurstücken an, die keine Grundstücksnummer haben."@de ;
+                                     rdfs:label "Lagebezeichnung ohne Hausnummer"@de .
+
+
+###  https://w3id.org/alkis/AX_SonstigeEigenschaften_Flurstueck
+alk:AX_SonstigeEigenschaften_Flurstueck rdf:type owl:Class ;
+                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                          owl:onProperty alk:flaecheDesAbschnitts ;
+                                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onClass alk:Area
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty alk:angabenZumAbschnittBemerkung ;
+                                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onDataRange xsd:string
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty alk:angabenZumAbschnittFlurstueck ;
+                                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onDataRange xsd:string
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty alk:angabenZumAbschnittNummerAktenzeichen ;
+                                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onDataRange xsd:string
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty alk:angabenZumAbschnittStelle ;
+                                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onDataRange xsd:string
+                                                        ] ,
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty alk:kennungSchluessel ;
+                                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                          owl:onDataRange xsd:string
+                                                        ] ;
+                                        rdfs:comment "Ein Datentyp, der alle Eigenschaften eines Flurstücks zusammenfasst."@de ;
+                                        rdfs:label "Sonstige Eigenschaften eines Flurstücks"@de .
+
+
+###  https://w3id.org/alkis/AX_Vertretung
+alk:AX_Vertretung rdf:type owl:Class ;
+                  rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                    owl:onProperty alk:angabenZurVertretung ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:string
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty alk:beginnDerVertretung ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:dateTime
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty alk:endeDerVertretung ;
+                                    owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                    owl:onDataRange xsd:dateTime
+                                  ] ;
+                  rdfs:comment "Eine Person, die eine andere Person in bestimmten Fällen vertritt."@de ;
+                  rdfs:label "Vertretung"@de .
+
+
+###  https://w3id.org/alkis/Area
+alk:Area rdf:type owl:Class ;
+         rdfs:comment "" ;
+         rdfs:label "Area"@en .
+
+
+###  https://w3id.org/alkis/GM_Point
+alk:GM_Point rdf:type owl:Class ;
+             rdfs:comment "Ein Datentyp für ein geometrisches Objekt, welches aus nur einem Punkt besteht."@de ;
+             rdfs:label "Geometrischer Punkt"@de .
+
+
+###  https://w3id.org/alkis/TA_MultiSurfaceComponent
+alk:TA_MultiSurfaceComponent rdf:type owl:Class ;
+                             rdfs:comment "Eine Klasse von flächenförmigen Fachobjekten, die einfachen topologischen Raumbezug haben und gleichzeitig entsprechende zusammengesetzte Flächen realisieren."@de ;
+                             rdfs:label "Mehrflächenkomponente"@de .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
