@@ -5,4 +5,4 @@ The ontologies housed in this repository have been developed as a geo data Onotl
 TBD
 
 # Machine-interpretable version
-[alkis.owl](https://gitlab.fokus.fraunhofer.de/Limbo/alkis/blob/master/alkis.owl)
+[alkis.owl](https://github.com/vocol/alkis/blob/master/alkis.owl)
