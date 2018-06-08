@@ -1,0 +1,45 @@
+@prefix alk: <https://w3id.org/alkis/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+<https://w3id.org/alkis/urn:adv:oid:DERP123400000hk0> a alk:AX_Flurstueck ;
+    alk:flurnummer 15 ;
+    alk:flurstueckskennzeichen "072435015001350003__" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DERP123400000hk0_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DERP123400000hk0_gemarkung> ;
+    alk:istGebucht <https://w3id.org/alkis/urn:adv:oid:DERPLP1000005gye> ;
+    alk:zeigtAuf <https://w3id.org/alkis/urn:adv:oid:DERPLP1000005egw> ;
+    alk:zeitpunktDerEntstehung "2017-02-16"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DERP123400000hkP> a alk:AX_Flurstueck ;
+    alk:flurnummer 15 ;
+    alk:flurstueckskennzeichen "072435015001350004__" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DERP123400000hkP_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DERP123400000hkP_gemarkung> ;
+    alk:istGebucht <https://w3id.org/alkis/urn:adv:oid:DERPLP1000005gye> ;
+    alk:zeigtAuf <https://w3id.org/alkis/urn:adv:oid:DERPLP1000005egw> ;
+    alk:zeitpunktDerEntstehung "2017-02-16"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DERP123400000hk0_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:nenner "3" ;
+    alk:zaehler "135" .
+
+<https://w3id.org/alkis/urn:adv:oid:DERP123400000hk0_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "2435" ;
+    alk:land "07" .
+
+<https://w3id.org/alkis/urn:adv:oid:DERP123400000hkP_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:nenner "4" ;
+    alk:zaehler "135" .
+
+<https://w3id.org/alkis/urn:adv:oid:DERP123400000hkP_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "2435" ;
+    alk:land "07" .
+
