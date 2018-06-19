@@ -4,6 +4,6 @@ The ontologies housed in this repository have been developed as a geo data Onotl
 # Human-readable version
 TBD
 # ALKIS Class diagram 
-[alkis.owl](diagrams/ALKIS Diagram.png)
+![Class diagram](diagrams/ALKIS.diagram.png "ALKIS class diagram")
 # Machine-interpretable version
 [alkis.owl](https://github.com/vocol/alkis/blob/master/alkis.owl)
