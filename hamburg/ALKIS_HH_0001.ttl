@@ -1,0 +1,3347 @@
+@prefix alk: <https://w3id.org/alkis/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uu> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "3210" ;
+    alk:flurstueckskennzeichen "020607___10501______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uu_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uu_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uu_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2015-05-04"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uw> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "176" ;
+    alk:flurstueckskennzeichen "020607___10502______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uw_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uw_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uw_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2015-05-04"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Mu000h6> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1921" ;
+    alk:flurstueckskennzeichen "020607___10520______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Mu000h6_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Mu000h6_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Mu000h6_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2015-09-21"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NF> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "534" ;
+    alk:flurstueckskennzeichen "020607___10599______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NF_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NF_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NF_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2015-09-25"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NI> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "116" ;
+    alk:flurstueckskennzeichen "020607___10600______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NI_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NI_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NI_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2015-09-25"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006i> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "364" ;
+    alk:flurstueckskennzeichen "020607___10625______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006i_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006i_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006i_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2016-03-16"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006m> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "897" ;
+    alk:flurstueckskennzeichen "020607___10626______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006m_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006m_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006m_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2016-03-16"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008K> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "362" ;
+    alk:flurstueckskennzeichen "020607___10705______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008K_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008K_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008K_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2017-02-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008P> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1625" ;
+    alk:flurstueckskennzeichen "020607___10704______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008P_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008P_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008P_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2017-02-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005L> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "564" ;
+    alk:flurstueckskennzeichen "020607___10725______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005L_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005L_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005L_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2017-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005N> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "298" ;
+    alk:flurstueckskennzeichen "020607___10724______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005N_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005N_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005N_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2017-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BC> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2822" ;
+    alk:flurstueckskennzeichen "020607___10799______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BC_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BC_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BC_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2018-03-06"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BF> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2822" ;
+    alk:flurstueckskennzeichen "020607___10800______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BF_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BF_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BF_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2018-03-06"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00022> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "452" ;
+    alk:flurstueckskennzeichen "020607___10813______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00022_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00022_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00022_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2018-05-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00026> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "361" ;
+    alk:flurstueckskennzeichen "020607___10814______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00026_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00026_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00026_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2018-05-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00029> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "42790" ;
+    alk:flurstueckskennzeichen "020607___10815______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00029_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00029_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00029_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2018-05-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA9000061B> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "900" ;
+    alk:flurstueckskennzeichen "020607___10165______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKA9000061B_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKA9000061B_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKA9000061B_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2011-06-07"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC400008z> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "593" ;
+    alk:flurstueckskennzeichen "020607___10403______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAC400008z_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAC400008z_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAC400008z_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2014-07-03"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC4000092> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "96" ;
+    alk:flurstueckskennzeichen "020607___10404______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAC4000092_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAC4000092_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAC4000092_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2014-07-03"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005D> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "710" ;
+    alk:flurstueckskennzeichen "020607___10354______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005D_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005D_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005D_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2014-02-10"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005F> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "101" ;
+    alk:flurstueckskennzeichen "020607___10355______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005F_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005F_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005F_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2014-02-10"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001VH> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "330" ;
+    alk:flurstueckskennzeichen "020607___02516______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001VH_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001VH_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001VH_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001YE> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "398" ;
+    alk:flurstueckskennzeichen "020607___06861______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001YE_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001YE_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001YE_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004mP> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "216" ;
+    alk:flurstueckskennzeichen "020607___03719______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004mP_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004mP_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004mP_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004oz> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1067" ;
+    alk:flurstueckskennzeichen "020607___02656______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004oz_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004oz_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004oz_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1997-09-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004tO> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "415" ;
+    alk:flurstueckskennzeichen "020607___04497______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004tO_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004tO_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004tO_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004wk> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1012" ;
+    alk:flurstueckskennzeichen "020607___02755______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004wk_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004wk_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004wk_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1997-09-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004x6> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "187" ;
+    alk:flurstueckskennzeichen "020607___04494______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004x6_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004x6_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004x6_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004xh> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "77" ;
+    alk:flurstueckskennzeichen "020607___06930______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004xh_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004xh_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004xh_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004zn> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "104" ;
+    alk:flurstueckskennzeichen "020607___06928______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004zn_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004zn_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004zn_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn000050Z> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "566" ;
+    alk:flurstueckskennzeichen "020607___09890______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn000050Z_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn000050Z_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn000050Z_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Dm> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "15" ;
+    alk:flurstueckskennzeichen "020607___09889______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Dm_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Dm_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Dm_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005FA> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "370" ;
+    alk:flurstueckskennzeichen "020607___04496______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005FA_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005FA_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005FA_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hb> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "191" ;
+    alk:flurstueckskennzeichen "020607___06964______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hb_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hb_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hb_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hs> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "314" ;
+    alk:flurstueckskennzeichen "020607___06969______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hs_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hs_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hs_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005IY> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2551" ;
+    alk:flurstueckskennzeichen "020607___09167______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005IY_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005IY_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005IY_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ie> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1150" ;
+    alk:flurstueckskennzeichen "020607___06932______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ie_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ie_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ie_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ir> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "30718" ;
+    alk:flurstueckskennzeichen "020607___09691______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ir_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ir_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ir_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2005-04-19"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K2> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "41558" ;
+    alk:flurstueckskennzeichen "020607___09705______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K2_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K2_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K2_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2005-06-15"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K5> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "685" ;
+    alk:flurstueckskennzeichen "020607___09259______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K5_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K5_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K5_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-11-20"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005KG> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1918" ;
+    alk:flurstueckskennzeichen "020607___08447______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005KG_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005KG_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005KG_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1993-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ka> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "12594" ;
+    alk:flurstueckskennzeichen "020607___09175______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ka_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ka_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ka_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Km> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4209" ;
+    alk:flurstueckskennzeichen "020607___06859______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Km_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Km_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Km_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2163" ;
+    alk:flurstueckskennzeichen "020607___08346______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1992-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kt> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "313" ;
+    alk:flurstueckskennzeichen "020607___02517______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kt_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kt_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kt_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kz> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "470" ;
+    alk:flurstueckskennzeichen "020607___06735______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kz_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kz_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kz_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005L4> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1400" ;
+    alk:flurstueckskennzeichen "020607___06953______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005L4_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005L4_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005L4_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LF> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "16516" ;
+    alk:flurstueckskennzeichen "020607___10008______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LF_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LF_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LF_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2009-10-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LO> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1797" ;
+    alk:flurstueckskennzeichen "020607___07036______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LO_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LO_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LO_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Lx> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1451" ;
+    alk:flurstueckskennzeichen "020607___09803______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Lx_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Lx_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Lx_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2006-07-19"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MK> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "282" ;
+    alk:flurstueckskennzeichen "020607___06935______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MK_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MK_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MK_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MW> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "8956" ;
+    alk:flurstueckskennzeichen "020607___10007______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MW_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MW_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MW_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2009-10-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mm> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "9249" ;
+    alk:flurstueckskennzeichen "020607___01434______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mm_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mm_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mm_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mw> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1017" ;
+    alk:flurstueckskennzeichen "020607___08537______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mw_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mw_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mw_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1994-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005NA> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2493" ;
+    alk:flurstueckskennzeichen "020607___06864______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005NA_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005NA_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005NA_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nf> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "295" ;
+    alk:flurstueckskennzeichen "020607___08949______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nf_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nf_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nf_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1999-06-22"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nh> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1645" ;
+    alk:flurstueckskennzeichen "020607___06970______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nh_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nh_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nh_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nr> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "31883" ;
+    alk:flurstueckskennzeichen "020607___09164______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nr_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nr_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nr_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nz> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "547" ;
+    alk:flurstueckskennzeichen "020607___08753______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nz_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nz_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nz_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1998-10-16"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O5> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "202" ;
+    alk:flurstueckskennzeichen "020607___06956______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O5_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O5_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O5_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O7> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "5649" ;
+    alk:flurstueckskennzeichen "020607___01915______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O7_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O7_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O7_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OA> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "5089" ;
+    alk:flurstueckskennzeichen "020607___08216______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OA_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OA_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OA_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1992-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OH> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "576" ;
+    alk:flurstueckskennzeichen "020607___03722______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OH_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OH_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OH_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Om> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "326" ;
+    alk:flurstueckskennzeichen "020607___06968______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Om_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Om_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Om_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ox> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2706" ;
+    alk:flurstueckskennzeichen "020607___09888______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ox_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ox_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ox_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005PN> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "370" ;
+    alk:flurstueckskennzeichen "020607___07028______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005PN_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005PN_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005PN_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Qw> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1097" ;
+    alk:flurstueckskennzeichen "020607___06948______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Qw_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Qw_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Qw_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005S9> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "984" ;
+    alk:flurstueckskennzeichen "020607___02661______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005S9_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005S9_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005S9_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1997-09-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Tj> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1550" ;
+    alk:flurstueckskennzeichen "020607___06939______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Tj_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Tj_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Tj_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005UW> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1603" ;
+    alk:flurstueckskennzeichen "020607___09172______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005UW_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005UW_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005UW_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005V9> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1011" ;
+    alk:flurstueckskennzeichen "020607___09925______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005V9_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005V9_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005V9_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2008-08-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Vz> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "9673" ;
+    alk:flurstueckskennzeichen "020607___09863______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Vz_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Vz_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Vz_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-08-20"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005WG> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1322" ;
+    alk:flurstueckskennzeichen "020607___07025______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005WG_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005WG_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005WG_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Wf> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "513" ;
+    alk:flurstueckskennzeichen "020607___07034______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Wf_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Wf_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Wf_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005YX> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2297" ;
+    alk:flurstueckskennzeichen "020607___09862______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005YX_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005YX_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005YX_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-08-20"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005cg> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2240" ;
+    alk:flurstueckskennzeichen "020607___06950______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005cg_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005cg_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005cg_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dG> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "534" ;
+    alk:flurstueckskennzeichen "020607___06733______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dG_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dG_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dG_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dc> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "566" ;
+    alk:flurstueckskennzeichen "020607___06731______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dc_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dc_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dc_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005du> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4753" ;
+    alk:flurstueckskennzeichen "020607___04057______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005du_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005du_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005du_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005f7> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2577" ;
+    alk:flurstueckskennzeichen "020607___06839______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005f7_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005f7_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005f7_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005gS> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1967" ;
+    alk:flurstueckskennzeichen "020607___07031______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005gS_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005gS_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005gS_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005hb> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2514" ;
+    alk:flurstueckskennzeichen "020607___09886______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005hb_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005hb_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005hb_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ho> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2116" ;
+    alk:flurstueckskennzeichen "020607___09174______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ho_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ho_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ho_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005j8> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1503" ;
+    alk:flurstueckskennzeichen "020607___09887______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005j8_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005j8_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005j8_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jN> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2187" ;
+    alk:flurstueckskennzeichen "020607___08163______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jN_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jN_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jN_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1991-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jU> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "907" ;
+    alk:flurstueckskennzeichen "020607___06994______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jU_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jU_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jU_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1997-09-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005k2> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1130" ;
+    alk:flurstueckskennzeichen "020607___09885______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005k2_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005k2_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005k2_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kG> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1932" ;
+    alk:flurstueckskennzeichen "020607___06734______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kG_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kG_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kG_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kJ> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4549" ;
+    alk:flurstueckskennzeichen "020607___09423______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kJ_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kJ_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kJ_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2002-05-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kN> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "631" ;
+    alk:flurstueckskennzeichen "020607___08730______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kN_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kN_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kN_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1998-12-09"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kW> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "7573" ;
+    alk:flurstueckskennzeichen "020607___03809______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kW_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kW_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kW_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kZ> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1896" ;
+    alk:flurstueckskennzeichen "020607___06958______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kZ_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kZ_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kZ_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ke> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "290" ;
+    alk:flurstueckskennzeichen "020607___06941______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ke_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ke_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ke_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lI> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "635" ;
+    alk:flurstueckskennzeichen "020607___07033______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lI_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lI_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lI_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lQ> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "926" ;
+    alk:flurstueckskennzeichen "020607___06838______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lQ_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lQ_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lQ_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lW> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1728" ;
+    alk:flurstueckskennzeichen "020607___09884______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lW_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lW_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lW_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lZ> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "3707" ;
+    alk:flurstueckskennzeichen "020607___06234______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lZ_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lZ_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lZ_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1977-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lg> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1961" ;
+    alk:flurstueckskennzeichen "020607___06943______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lg_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lg_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lg_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lw> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "707" ;
+    alk:flurstueckskennzeichen "020607___06732______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lw_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lw_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lw_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m2> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "5751" ;
+    alk:flurstueckskennzeichen "020607___06954______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m2_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m2_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m2_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m8> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "3258" ;
+    alk:flurstueckskennzeichen "020607___07030______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m8_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m8_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m8_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mZ> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1093" ;
+    alk:flurstueckskennzeichen "020607___01442______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mZ_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mZ_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mZ_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mn> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4024" ;
+    alk:flurstueckskennzeichen "020607___07289______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mn_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mn_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mn_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1983-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mw> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "8239" ;
+    alk:flurstueckskennzeichen "020607___09170______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mw_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mw_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mw_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-03-28"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005n0> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "687" ;
+    alk:flurstueckskennzeichen "020607___09260______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005n0_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005n0_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005n0_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2001-11-20"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ne> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "466" ;
+    alk:flurstueckskennzeichen "020607___06934______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ne_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ne_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ne_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ng> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1508910" ;
+    alk:flurstueckskennzeichen "020607___09138______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ng_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ng_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ng_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2002-03-05"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nj> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1757" ;
+    alk:flurstueckskennzeichen "020607___08538______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nj_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nj_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nj_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1994-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nl> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "450" ;
+    alk:flurstueckskennzeichen "020607___08950______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nl_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nl_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nl_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1999-06-22"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nx> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "5583" ;
+    alk:flurstueckskennzeichen "020607___06944______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nx_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nx_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nx_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005o3> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "29721" ;
+    alk:flurstueckskennzeichen "020607___08342______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005o3_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005o3_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005o3_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1992-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oD> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "807" ;
+    alk:flurstueckskennzeichen "020607___06955______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oD_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oD_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oD_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oP> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "966" ;
+    alk:flurstueckskennzeichen "020607___06952______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oP_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oP_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oP_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005og> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4083" ;
+    alk:flurstueckskennzeichen "020607___04058______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005og_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005og_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005og_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ok> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "374" ;
+    alk:flurstueckskennzeichen "020607___06961______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ok_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ok_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ok_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005p9> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "639" ;
+    alk:flurstueckskennzeichen "020607___06837______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005p9_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005p9_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005p9_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pP> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "350" ;
+    alk:flurstueckskennzeichen "020607___08740______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pP_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pP_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pP_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1998-03-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ph> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "711" ;
+    alk:flurstueckskennzeichen "020607___06957______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ph_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ph_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ph_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pz> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "104" ;
+    alk:flurstueckskennzeichen "020607___07023______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pz_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pz_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pz_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qF> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "606" ;
+    alk:flurstueckskennzeichen "020607___06959______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qF_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qF_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qF_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qL> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "434" ;
+    alk:flurstueckskennzeichen "020607___06736______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qL_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qL_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qL_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qN> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "6956" ;
+    alk:flurstueckskennzeichen "020607___06233______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qN_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qN_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qN_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1977-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qv> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "31473" ;
+    alk:flurstueckskennzeichen "020607___09435______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qv_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qv_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qv_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2002-10-21"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qz> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "3599" ;
+    alk:flurstueckskennzeichen "020607___06860______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qz_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qz_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qz_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rE> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "398" ;
+    alk:flurstueckskennzeichen "020607___09926______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rE_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rE_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rE_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2008-08-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rG> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "19949" ;
+    alk:flurstueckskennzeichen "020607___06942______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rG_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rG_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rG_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rU> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1189" ;
+    alk:flurstueckskennzeichen "020607___06858______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rU_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rU_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rU_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1997-09-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rz> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "404" ;
+    alk:flurstueckskennzeichen "020607___06960______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rz_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rz_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rz_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005sO> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "302" ;
+    alk:flurstueckskennzeichen "020607___06971______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005sO_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005sO_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005sO_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005t0> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "282" ;
+    alk:flurstueckskennzeichen "020607___07027______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005t0_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005t0_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005t0_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tQ> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1695" ;
+    alk:flurstueckskennzeichen "020607___02026______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tQ_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tQ_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tQ_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1997-09-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tp> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "19062" ;
+    alk:flurstueckskennzeichen "020607___09864______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tp_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tp_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tp_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-08-20"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tx> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "923" ;
+    alk:flurstueckskennzeichen "020607___00757______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tx_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tx_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tx_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1997-09-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005u3> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1783" ;
+    alk:flurstueckskennzeichen "020607___08951______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005u3_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005u3_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005u3_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1999-06-22"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uI> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4551" ;
+    alk:flurstueckskennzeichen "020607___02186______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uI_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uI_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uI_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uV> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1110" ;
+    alk:flurstueckskennzeichen "020607___06729______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uV_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uV_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uV_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ul> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1629" ;
+    alk:flurstueckskennzeichen "020607___06927______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ul_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ul_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ul_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vD> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "3594" ;
+    alk:flurstueckskennzeichen "020607___01908______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vD_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vD_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vD_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vN> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "716" ;
+    alk:flurstueckskennzeichen "020607___06730______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vN_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vN_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vN_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1980-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vT> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "5866" ;
+    alk:flurstueckskennzeichen "020607___08752______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vT_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vT_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vT_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1998-10-16"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vV> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1100" ;
+    alk:flurstueckskennzeichen "020607___09901______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vV_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vV_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vV_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2008-01-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vl> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "305" ;
+    alk:flurstueckskennzeichen "020607___06865______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vl_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vl_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vl_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005w8> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4440" ;
+    alk:flurstueckskennzeichen "020607___09422______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005w8_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005w8_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005w8_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2002-05-23"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wP> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "6099" ;
+    alk:flurstueckskennzeichen "020607___06938______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wP_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wP_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wP_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wW> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "756" ;
+    alk:flurstueckskennzeichen "020607___09981______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wW_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wW_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wW_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2009-07-03"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wc> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "144" ;
+    alk:flurstueckskennzeichen "020607___06936______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wc_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wc_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wc_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1981-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005x2> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "3442" ;
+    alk:flurstueckskennzeichen "020607___01391______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005x2_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005x2_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005x2_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000AAP> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "1248" ;
+    alk:flurstueckskennzeichen "020607___09883______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000AAP_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000AAP_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000AAP_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Alm> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "37211" ;
+    alk:flurstueckskennzeichen "020607___08218______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Alm_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Alm_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Alm_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1992-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Ap6> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "52314" ;
+    alk:flurstueckskennzeichen "020607___09882______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Ap6_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Ap6_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Ap6_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2007-11-26"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000BQu> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "2116" ;
+    alk:flurstueckskennzeichen "020607___09436______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000BQu_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000BQu_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000BQu_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2002-10-21"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000EbH> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "4170" ;
+    alk:flurstueckskennzeichen "020607___04765______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000EbH_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000EbH_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000EbH_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FR4> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "10842" ;
+    alk:flurstueckskennzeichen "020607___01311______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FR4_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FR4_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FR4_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FRx> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "10719" ;
+    alk:flurstueckskennzeichen "020607___02302______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FRx_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FRx_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FRx_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FVv> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "22311" ;
+    alk:flurstueckskennzeichen "020607___07026______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FVv_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FVv_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FVv_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1982-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Fc2> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "14915" ;
+    alk:flurstueckskennzeichen "020607___01318______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Fc2_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Fc2_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Fc2_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000G2N> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "10548" ;
+    alk:flurstueckskennzeichen "020607___01319______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000G2N_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000G2N_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000G2N_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "1600-01-01"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U2> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "315" ;
+    alk:flurstueckskennzeichen "020607___10443______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U2_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U2_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U2_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2015-03-13"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U4> a alk:AX_Flurstueck ;
+    alk:amtlicheFlaeche "79" ;
+    alk:flurstueckskennzeichen "020607___10444______" ;
+    alk:flurstuecksnummer <https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U4_flurstuecksnummer> ;
+    alk:gemarkung <https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U4_gemarkung> ;
+    alk:gemeindezugehoerigkeit <https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U4_gemeindezugehoerigkeit> ;
+    alk:zeitpunktDerEntstehung "2015-03-13"^^xsd:date .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uu_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10501" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uu_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uu_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uw_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10502" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uw_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA11H000Uw_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Mu000h6_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10520" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Mu000h6_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Mu000h6_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NF_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10599" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NF_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NF_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NI_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10600" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NI_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1Nk000NI_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006i_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10625" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006i_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006i_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006m_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10626" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006m_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA1q80006m_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008K_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10705" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008K_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008K_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008P_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10704" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008P_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2iz0008P_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005L_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10725" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005L_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005L_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005N_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10724" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005N_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA2rV0005N_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BC_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10799" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BC_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BC_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BF_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10800" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BF_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3kR000BF_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00022_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10813" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00022_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00022_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00026_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10814" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00026_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00026_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00029_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10815" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00029_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA3wW00029_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA9000061B_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10165" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA9000061B_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKA9000061B_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC400008z_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10403" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC400008z_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC400008z_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC4000092_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10404" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC4000092_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAC4000092_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005D_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10354" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005D_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005D_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005F_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10355" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005F_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAVq00005F_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001VH_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2516" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001VH_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001VH_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001YE_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6861" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001YE_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00001YE_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004mP_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "3719" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004mP_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004mP_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004oz_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2656" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004oz_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004oz_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004tO_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "4497" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004tO_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004tO_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004wk_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2755" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004wk_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004wk_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004x6_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "4494" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004x6_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004x6_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004xh_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6930" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004xh_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004xh_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004zn_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6928" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004zn_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00004zn_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn000050Z_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9890" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn000050Z_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn000050Z_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Dm_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9889" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Dm_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Dm_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005FA_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "4496" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005FA_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005FA_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hb_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6964" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hb_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hb_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hs_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6969" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hs_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Hs_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005IY_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9167" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005IY_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005IY_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ie_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6932" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ie_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ie_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ir_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9691" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ir_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ir_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K2_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9705" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K2_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K2_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K5_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9259" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K5_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005K5_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005KG_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8447" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005KG_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005KG_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ka_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9175" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ka_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ka_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Km_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6859" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Km_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Km_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8346" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kq_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kt_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2517" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kt_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kt_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kz_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6735" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kz_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Kz_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005L4_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6953" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005L4_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005L4_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LF_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10008" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LF_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LF_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LO_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7036" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LO_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005LO_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Lx_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9803" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Lx_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Lx_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MK_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6935" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MK_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MK_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MW_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10007" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MW_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005MW_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mm_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1434" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mm_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mm_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mw_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8537" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mw_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Mw_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005NA_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6864" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005NA_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005NA_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nf_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8949" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nf_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nf_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nh_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6970" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nh_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nh_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nr_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9164" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nr_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nr_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nz_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8753" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nz_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Nz_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O5_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6956" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O5_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O5_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O7_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1915" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O7_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005O7_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OA_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8216" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OA_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OA_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OH_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "3722" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OH_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005OH_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Om_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6968" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Om_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Om_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ox_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9888" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ox_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Ox_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005PN_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7028" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005PN_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005PN_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Qw_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6948" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Qw_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Qw_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005S9_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2661" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005S9_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005S9_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Tj_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6939" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Tj_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Tj_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005UW_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9172" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005UW_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005UW_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005V9_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9925" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005V9_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005V9_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Vz_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9863" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Vz_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Vz_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005WG_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7025" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005WG_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005WG_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Wf_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7034" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Wf_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005Wf_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005YX_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9862" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005YX_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005YX_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005cg_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6950" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005cg_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005cg_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dG_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6733" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dG_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dG_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dc_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6731" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dc_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005dc_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005du_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "4057" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005du_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005du_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005f7_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6839" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005f7_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005f7_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005gS_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7031" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005gS_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005gS_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005hb_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9886" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005hb_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005hb_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ho_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9174" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ho_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ho_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005j8_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9887" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005j8_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005j8_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jN_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8163" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jN_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jN_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jU_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6994" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jU_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005jU_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005k2_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9885" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005k2_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005k2_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kG_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6734" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kG_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kG_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kJ_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9423" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kJ_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kJ_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kN_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8730" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kN_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kN_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kW_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "3809" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kW_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kW_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kZ_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6958" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kZ_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005kZ_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ke_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6941" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ke_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ke_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lI_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7033" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lI_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lI_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lQ_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6838" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lQ_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lQ_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lW_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9884" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lW_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lW_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lZ_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6234" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lZ_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lZ_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lg_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6943" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lg_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lg_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lw_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6732" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lw_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005lw_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m2_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6954" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m2_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m2_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m8_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7030" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m8_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005m8_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mZ_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1442" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mZ_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mZ_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mn_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7289" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mn_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mn_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mw_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9170" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mw_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005mw_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005n0_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9260" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005n0_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005n0_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ne_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6934" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ne_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ne_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ng_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9138" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ng_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ng_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nj_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8538" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nj_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nj_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nl_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8950" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nl_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nl_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nx_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6944" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nx_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005nx_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005o3_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8342" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005o3_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005o3_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oD_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6955" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oD_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oD_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oP_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6952" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oP_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005oP_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005og_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "4058" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005og_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005og_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ok_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6961" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ok_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ok_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005p9_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6837" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005p9_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005p9_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pP_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8740" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pP_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pP_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ph_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6957" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ph_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ph_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pz_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7023" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pz_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005pz_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qF_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6959" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qF_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qF_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qL_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6736" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qL_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qL_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qN_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6233" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qN_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qN_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qv_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9435" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qv_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qv_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qz_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6860" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qz_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005qz_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rE_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9926" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rE_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rE_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rG_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6942" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rG_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rG_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rU_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6858" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rU_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rU_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rz_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6960" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rz_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005rz_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005sO_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6971" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005sO_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005sO_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005t0_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7027" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005t0_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005t0_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tQ_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2026" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tQ_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tQ_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tp_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9864" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tp_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tp_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tx_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "757" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tx_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005tx_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005u3_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8951" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005u3_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005u3_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uI_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2186" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uI_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uI_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uV_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6729" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uV_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005uV_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ul_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6927" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ul_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005ul_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vD_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1908" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vD_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vD_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vN_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6730" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vN_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vN_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vT_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8752" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vT_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vT_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vV_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9901" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vV_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vV_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vl_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6865" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vl_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005vl_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005w8_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9422" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005w8_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005w8_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wP_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6938" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wP_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wP_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wW_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9981" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wW_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wW_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wc_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "6936" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wc_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005wc_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005x2_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1391" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005x2_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn00005x2_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000AAP_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9883" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000AAP_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000AAP_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Alm_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "8218" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Alm_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Alm_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Ap6_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9882" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Ap6_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Ap6_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000BQu_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "9436" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000BQu_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000BQu_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000EbH_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "4765" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000EbH_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000EbH_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FR4_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1311" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FR4_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FR4_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FRx_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "2302" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FRx_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FRx_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FVv_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "7026" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FVv_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000FVv_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Fc2_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1318" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Fc2_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000Fc2_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000G2N_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "1319" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000G2N_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAn0000G2N_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U2_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10443" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U2_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U2_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U4_flurstuecksnummer> a alk:AX_Flurstuecksnummer ;
+    alk:zaehler "10444" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U4_gemarkung> a alk:AX_Gemarkung_Schluessel ;
+    alk:gemarkungsnummer "0607" ;
+    alk:land "02" .
+
+<https://w3id.org/alkis/urn:adv:oid:DEHHALKAsv0000U4_gemeindezugehoerigkeit> a alk:AX_Gemeindekennzeichen ;
+    alk:gemeinde "000" ;
+    alk:kreis "00" ;
+    alk:land "02" ;
+    alk:regierungsbezirk "0" .
+
