@@ -1,34 +1,94 @@
 @prefix : <https://w3id.org/alkis/> .
 @prefix alk: <https://w3id.org/alkis/> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ngeo: <http://geovocab.org/geometry#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
+@base <https://w3id.org/alkis/> .
 
-alk: rdf:type owl:Ontology ;
-	 dct:title "ALKIS Ontologie"@de ;
-	 dct:title "ALKIS Ontology"@en ;
-	 rdfs:comment "Eine Geodatenontologie, welche erstellt wurde um ALKIS-Daten mit dem semantische Web zu verbinden."@de ;
-	 rdfs:comment "A geo-data ontology developed to link ALKIS data to the semantic web."@en ;
-     dct:creator "Raed Ben Younes" ;
-     dct:creator "Edward Dinu" ;
-     dct:modified "2018-05-30"@de ;
-     dct:contributor "2018-05-17"^^xsd:date ;
-     vann:preferredNamespacePrefix "alk" .
-     
-     
+<https://w3id.org/alkis/> rdf:type owl:Ontology ;
+                           dct:creator "Edward Dinu" ;
+                           dct:contributor "2018-05-17"^^xsd:date ;
+                           vann:preferredNamespacePrefix "alk" ;
+                           dct:title "ALKIS Ontologie"@de ;
+                           rdfs:comment "A geo-data ontology developed to link ALKIS data to the semantic web."@en ;
+                           dct:creator "Raed Ben Younes" ;
+                           rdfs:comment "Eine Geodatenontologie, welche erstellt wurde um ALKIS-Daten mit dem semantische Web zu verbinden."@de ;
+                           dct:title "ALKIS Ontology"@en ;
+                           dct:modified "2018-05-30"@de .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/alkis/amtlicheFlaeche
-alk:amtlicheFlaeche rdf:type owl:ObjectProperty ;
-                    rdfs:domain alk:AX_Flurstueck_Kerndaten ;
-                    rdfs:range alk:Area .
+###  http://geovocab.org/geometry#bbox
+ngeo:bbox rdf:type owl:ObjectProperty ;
+          rdfs:domain ngeo:Geometry ;
+          rdfs:range ngeo:BoundingBox .
+
+
+###  http://geovocab.org/geometry#boundary
+ngeo:boundary rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain ngeo:Polygon ;
+              rdfs:range ngeo:LinearRing .
+
+
+###  http://geovocab.org/geometry#exterior
+ngeo:exterior rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf ngeo:boundary ;
+              rdfs:domain ngeo:Polygon ;
+              rdfs:range ngeo:LinearRing .
+
+
+###  http://geovocab.org/geometry#geometry
+ngeo:geometry rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:range ngeo:Geometry .
+
+
+###  http://geovocab.org/geometry#interior
+ngeo:interior rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf ngeo:boundary ;
+              rdfs:domain ngeo:Polygon ;
+              rdfs:range ngeo:LinearRing .
+
+
+###  http://geovocab.org/geometry#lineStringMember
+ngeo:lineStringMember rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain ngeo:MultiLineString ;
+                      rdfs:range ngeo:LineString .
+
+
+###  http://geovocab.org/geometry#partOf
+ngeo:partOf rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain ngeo:MultiPoint ;
+            rdfs:range geo:Point .
+
+
+###  http://geovocab.org/geometry#pointMember
+ngeo:pointMember rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://geovocab.org/geometry#polygonMember
+ngeo:polygonMember rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain ngeo:MultiPolygon ;
+                   rdfs:range ngeo:Polygon .
+
+
+###  http://geovocab.org/geometry#posList
+ngeo:posList rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain ngeo:LineString .
 
 
 ###  https://w3id.org/alkis/anteil
@@ -154,10 +214,38 @@ alk:zustaendigeStelle rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
+###  http://geovocab.org/geometry#asWKT
+ngeo:asWKT rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#alt
+geo:alt rdf:type owl:DatatypeProperty ;
+        rdfs:domain geo:SpatialThing ;
+        rdfs:range xsd:double .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+geo:lat rdf:type owl:DatatypeProperty ;
+        rdfs:domain geo:SpatialThing ;
+        rdfs:range xsd:double .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+geo:long rdf:type owl:DatatypeProperty ;
+         rdfs:domain geo:SpatialThing ;
+         rdfs:range xsd:double .
+
+
 ###  https://w3id.org/alkis/abweichenderRechtszustand
 alk:abweichenderRechtszustand rdf:type owl:DatatypeProperty ;
                               rdfs:domain alk:AX_Flurstueck_Kerndaten ;
                               rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/alkis/amtlicheFlaeche
+alk:amtlicheFlaeche rdf:type owl:DatatypeProperty ;
+                    rdfs:domain alk:AX_Flurstueck_Kerndaten ;
+                    rdfs:range xsd:string .
 
 
 ###  https://w3id.org/alkis/angabenZumAbschnittBemerkung
@@ -280,6 +368,12 @@ alk:gemarkungsnummer rdf:type owl:DatatypeProperty ;
                      rdfs:range xsd:string .
 
 
+###  https://w3id.org/alkis/gemeinde
+alk:gemeinde rdf:type owl:DatatypeProperty ;
+             rdfs:domain alk:AX_Gemeindekennzeichen ;
+             rdfs:range xsd:string .
+
+
 ###  https://w3id.org/alkis/hausnummer
 alk:hausnummer rdf:type owl:DatatypeProperty ;
                rdfs:domain alk:AX_LagebezeichnungMitHausnummer ;
@@ -292,9 +386,16 @@ alk:kennungSchluessel rdf:type owl:DatatypeProperty ;
                       rdfs:range xsd:string .
 
 
+###  https://w3id.org/alkis/kreis
+alk:kreis rdf:type owl:DatatypeProperty ;
+          rdfs:domain alk:AX_Gemeindekennzeichen ;
+          rdfs:range xsd:string .
+
+
 ###  https://w3id.org/alkis/land
 alk:land rdf:type owl:DatatypeProperty ;
-         rdfs:domain alk:AX_Gemarkung_Schluessel ;
+         rdfs:domain alk:AX_Gemarkung_Schluessel ,
+                     alk:AX_Gemeindekennzeichen ;
          rdfs:range xsd:string .
 
 
@@ -333,6 +434,12 @@ alk:ortsteil rdf:type owl:DatatypeProperty ;
 alk:rechtsbehelfsverfahren rdf:type owl:DatatypeProperty ;
                            rdfs:domain alk:AX_Flurstueck_Kerndaten ;
                            rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/alkis/regierungsbezirk
+alk:regierungsbezirk rdf:type owl:DatatypeProperty ;
+                     rdfs:domain alk:AX_Gemeindekennzeichen ;
+                     rdfs:range xsd:string .
 
 
 ###  https://w3id.org/alkis/zaehler
@@ -380,6 +487,68 @@ alk:zweifelhafterFlurstuecksnachweis rdf:type owl:DatatypeProperty ;
 #################################################################
 #    Classes
 #################################################################
+
+###  http://geovocab.org/geometry#BoundingBox
+ngeo:BoundingBox rdf:type owl:Class ;
+                 rdfs:subClassOf ngeo:Geometry .
+
+
+###  http://geovocab.org/geometry#Geometry
+ngeo:Geometry rdf:type owl:Class .
+
+
+###  http://geovocab.org/geometry#GeometryCollection
+ngeo:GeometryCollection rdf:type owl:Class ;
+                        rdfs:subClassOf ngeo:Geometry .
+
+
+###  http://geovocab.org/geometry#LineString
+ngeo:LineString rdf:type owl:Class ;
+                rdfs:subClassOf ngeo:Geometry .
+
+
+###  http://geovocab.org/geometry#LinearRing
+ngeo:LinearRing rdf:type owl:Class ;
+                rdfs:subClassOf ngeo:LineString .
+
+
+###  http://geovocab.org/geometry#MultiLineString
+ngeo:MultiLineString rdf:type owl:Class ;
+                     rdfs:subClassOf ngeo:GeometryCollection .
+
+
+###  http://geovocab.org/geometry#MultiPoint
+ngeo:MultiPoint rdf:type owl:Class ;
+                rdfs:subClassOf ngeo:GeometryCollection .
+
+
+###  http://geovocab.org/geometry#MultiPolygon
+ngeo:MultiPolygon rdf:type owl:Class ;
+                  rdfs:subClassOf ngeo:GeometryCollection .
+
+
+###  http://geovocab.org/geometry#Polygon
+ngeo:Polygon rdf:type owl:Class ;
+             rdfs:subClassOf ngeo:Geometry ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty ngeo:interior ;
+                               owl:someValuesFrom ngeo:LinearRing
+                             ] ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty ngeo:exterior ;
+                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass ngeo:LinearRing
+                             ] .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
+geo:Point rdf:type owl:Class ;
+          rdfs:subClassOf geo:SpatialThing .
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+geo:SpatialThing rdf:type owl:Class .
+
 
 ###  https://w3id.org/alkis/AA_Anlassart
 alk:AA_Anlassart rdf:type owl:Class ;
