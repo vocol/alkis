@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/rbe/ontologies/2018/3/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/rbe/ontologies/2018/3/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.semanticweb.org/rbe/ontologies/2018/3/untitled-ontology-10#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#OWLClass_a8691ac8_8665_4cc8_80c4_84366acf93ff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4a543a0c_cb79_417b_9091_45ed5e1064e8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_308b722b_db3a_45d0_8876_e40a49a8f005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_036fdf7d_fbb5_4d04_9a26_db7e5fb50924"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_b04ae2c7_bd4a_4ab4_98bb_b087594eb85d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_636ea9ba_f05e_40db_ae87_26b108028c16"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_7552e35c_2d62_4123_9465_42c2ea3140c8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_eca14bc3_353b_418e_ad8b_4debcf75b384"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e84cc710_c54e_47b1_8151_2df6faac85e2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_25d5e027_5de4_4b1b_96a4_2afbe139d71e"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OWLClass_25d5e027_5de4_4b1b_96a4_2afbe139d71e"/>
+        <Class IRI="#OWLClass_036fdf7d_fbb5_4d04_9a26_db7e5fb50924"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_308b722b_db3a_45d0_8876_e40a49a8f005"/>
+        <Class IRI="#OWLClass_036fdf7d_fbb5_4d04_9a26_db7e5fb50924"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4a543a0c_cb79_417b_9091_45ed5e1064e8"/>
+        <Class IRI="#OWLClass_036fdf7d_fbb5_4d04_9a26_db7e5fb50924"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_636ea9ba_f05e_40db_ae87_26b108028c16"/>
+        <Class IRI="#OWLClass_4a543a0c_cb79_417b_9091_45ed5e1064e8"/>
+    </SubClassOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_7552e35c_2d62_4123_9465_42c2ea3140c8"/>
+        <DataProperty IRI="#OWLDataProperty_b04ae2c7_bd4a_4ab4_98bb_b087594eb85d"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#OWLDataProperty_b04ae2c7_bd4a_4ab4_98bb_b087594eb85d"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_036fdf7d_fbb5_4d04_9a26_db7e5fb50924</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">test</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_25d5e027_5de4_4b1b_96a4_2afbe139d71e</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">those</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_308b722b_db3a_45d0_8876_e40a49a8f005</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">this</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_4a543a0c_cb79_417b_9091_45ed5e1064e8</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">that</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_636ea9ba_f05e_40db_ae87_26b108028c16</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">and</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_a8691ac8_8665_4cc8_80c4_84366acf93ff</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">test4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e84cc710_c54e_47b1_8151_2df6faac85e2</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tes2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_eca14bc3_353b_418e_ad8b_4debcf75b384</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">test3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_7552e35c_2d62_4123_9465_42c2ea3140c8</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">thatthis and that</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_b04ae2c7_bd4a_4ab4_98bb_b087594eb85d</IRI>
+        <Literal xml:lang="de" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">testtest</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

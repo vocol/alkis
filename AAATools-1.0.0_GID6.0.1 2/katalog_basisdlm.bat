@@ -1,0 +1,1 @@
+java -Xms64m -Xmx512m -jar AAATools-1.0.0-SNAPSHOT.jar -d -c "Konfigurationen/AAAKatalog-BasisDLM-6.0.1.xml" 
